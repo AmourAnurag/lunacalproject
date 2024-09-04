@@ -1,11 +1,36 @@
 .main {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  justify-content: center;
+  width: 100vw;
+  margin: 0 auto; /* Center the container */
+  height: 100vh; /* Full viewport height */
+  gap: 0px;
+  border-radius: 28px;
+  opacity: 1; /* Ensure content is visible */
+  background: linear-gradient(180deg, #373e44 -100%, #191b1f 100%);
+  box-shadow: 10px 10px 40px 10px #00000080;
 }
+.left {
+  box-sizing: border-box;
+  width: 45vw;
+  height: 80vh;
+  margin: 95px 29px;
+  gap: 0px;
+  border-radius: 27px;
+  border: 1px;
+  background: #616161D1;
+  border: 1px solid #96bee7;
+  opacity: 1px;
+} 
+/* @media (width: 700px) {
+  .left {
+    display: none;
+  }
+} */
+
+
+/*
 
 .description {
   display: inherit;
@@ -107,8 +132,8 @@
 
 .logo {
   position: relative;
-}
-/* Enable hover only on non-touch devices */
+}*/
+/* Enable hover only on non-touch devices */ /*
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
     background: rgba(var(--card-rgb), 0.1);
@@ -125,8 +150,8 @@
     transform: none;
   }
 }
-
-/* Mobile */
+*/
+/* Mobile */ /*
 @media (max-width: 700px) {
   .content {
     padding: 4rem;
@@ -201,9 +226,10 @@
     );
     z-index: 1;
   }
-}
+}*/
 
 /* Tablet and Smaller Desktop */
+/*
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
@@ -228,3 +254,4 @@
     transform: rotate(0deg);
   }
 }
+*/
