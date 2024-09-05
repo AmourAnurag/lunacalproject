@@ -23,11 +23,24 @@
   border: 1px solid #96bee7;
   opacity: 1px;
 } 
-/* @media (width: 700px) {
-  .left {
-    display: none;
+
+.right{
+  min-width: 650px;
+  border: none;
+  background-color: transparent;
+}
+ @media (max-width: 768px) {
+  .main {
+    flex-direction: column-reverse;
+    height: auto;
   }
-} */
+  .left{
+    margin: 20px 25px;
+    min-width: 90%;
+    height: auto;
+  }
+  
+} 
 
 
 /*

@@ -64,9 +64,8 @@
 
   opacity: 0px;
 }
-.arrowContainer:hover{
+.arrowContainer:hover {
   background: rgb(51, 50, 50);
-
 }
 .addImage {
   width: 115px;
@@ -83,7 +82,7 @@
   background: #535a62;
   box-shadow: 5px 5px 10px 5px #15171a;
 }
-.imageContainer{
+.imageContainer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -97,7 +96,7 @@
 .imageWrapper {
   display: flex;
   transition: transform 0.5s ease-in-out;
-   gap: 35px;
+  gap: 35px;
 }
 
 .arrowContainer {
@@ -106,6 +105,48 @@
 
 .arrowContainer.clicked {
   background-color: grey;
-  transition: grey 0.3s ease;
+  transition: black 0.3s ease;
 }
 
+@media (max-width: 768px) {
+  .header {
+    min-width: 90%;
+    gap: 5px;
+  }
+  .btn {
+    gap: 15px;
+    padding: 8px;
+    opacity: 0px;
+  }
+  .imageContainer{
+    width: 90%;
+  }
+  .below{
+    min-height: 300px;
+    height: auto;
+  }
+}
+
+@media(max-width:370px){
+  .header{
+    min-width: 200px;
+ 
+  }
+  .btn{
+    font-size: 12px;
+    padding: 0px 8px;
+  }
+  .addImage{
+    font-size: 12px;
+    width: 95px;
+    padding:0;
+  }
+  .arrowContainer{
+    width: 35px;
+    
+    height: 35px;
+  }
+  .leftAndright{
+    gap: 8px;
+  }
+}
