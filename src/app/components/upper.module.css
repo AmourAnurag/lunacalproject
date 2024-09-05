@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .upper {
   height: 37vh;
@@ -10,6 +10,7 @@
   padding: 20px 10px;
   display: flex;
 }
+
 .upper .btnAndContentContainer {
   display: flex;
   min-width: 90%;
@@ -26,17 +27,17 @@
   border-radius: 23px;
   box-sizing: border-box;
   padding: 9px;
-  opacity: 0px;
   background: #171717;
   box-shadow: 0px 4.96px 12.4px 2.48px #00000040 inset;
 }
+
 .content {
   width: 90%;
   margin: 0 auto;
   color: #a3adb2;
-
   font-size: 17px;
 }
+
 .btn {
   border: none;
   cursor: pointer;
@@ -50,19 +51,11 @@
   font-style: normal;
   height: 45px;
   padding: 8px 18px;
-  /* border-radius: 16px; */
-  opacity: 0px;
-}
-.btn {
-  /* Base styles for buttons */
-  background-color: transparent;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
+ 
   transition: background-color 0.3s, color 0.3s;
 }
 
-.active {
+.btn.active {
   background-color: #363c43;
   border-radius: 18px;
   color: white;
@@ -75,6 +68,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
 .rightSidebar {
   width: 25px;
   height: 64px;
@@ -84,30 +78,29 @@
   background: linear-gradient(177.32deg, #888989 5.6%, #4a4e54 93.28%);
 }
 
-/* media queries */
-@media(max-width:768px) {
-  .btnAndContentContainer{
+/* Media Queries */
+@media (max-width: 768px) {
+  .btnAndContentContainer {
     min-width: 90%;
   }
-  .upper{
+  .upper {
     height: auto;
   }
-  .upper .header{
+  .upper .header {
     min-width: 90%;
-    
   }
- .upper .btn{
-  width: 95px;
-  font-size: 14px;
-  padding: 4px;
- }
- .upper .rightSidebar{
-  margin-top: 95px;
- 
- }
+  .btn {
+    width: 95px;
+    font-size: 14px;
+    padding: 4px;
+  }
+  .rightSidebar {
+    margin-top: 95px;
+  }
 }
-@media(max-width:370px){
-  .upper .btn{
+
+@media (max-width: 370px) {
+  .btn {
     width: 60px;
     font-size: 10px;
   }
