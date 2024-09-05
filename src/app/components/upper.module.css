@@ -10,7 +10,7 @@
   padding: 20px 10px;
   display: flex;
 }
-.btnAndContentContainer {
+.upper .btnAndContentContainer {
   display: flex;
   min-width: 90%;
   flex-direction: column;
