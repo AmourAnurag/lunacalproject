@@ -19,7 +19,7 @@
   align-items: center;
   margin: 5px auto;
 }
-.btn {
+.below .btn {
   border: none;
   cursor: pointer;
   align-items: center;
@@ -36,7 +36,7 @@
   padding: 8px 18px;
   opacity: 0px;
 }
-.gallery {
+.below .gallery {
   width: 149px;
   height: 42px;
   color: white;
@@ -113,7 +113,7 @@
     min-width: 90%;
     gap: 5px;
   }
-  .btn {
+  .below .btn {
     gap: 15px;
     padding: 8px;
     opacity: 0px;
@@ -132,7 +132,7 @@
     min-width: 200px;
  
   }
-  .btn{
+  .below .btn{
     font-size: 12px;
     padding: 0px 8px;
   }

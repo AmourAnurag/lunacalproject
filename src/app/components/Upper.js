@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import styles from "../components/upper.module.css";
+import styles from "./upper.module.css";
 import Image from "next/image";
 
 const Upper = () => {
