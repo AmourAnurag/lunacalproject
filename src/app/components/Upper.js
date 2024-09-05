@@ -53,8 +53,8 @@ const Upper = () => {
             Recommended
           </button>
         </div>
+        {/* eslint-disable react/no-unescaped-entities */ }
         <div className={styles.content}>
-          {/* eslint-disable-next-line react/no-unescaped-entities */}
           Hello! I’m Dave, your sales rep here from Salesforce. I’ve been
           working at this awesome company for 3 years now.
           <br /> <br />I was born and raised in Albany, NY & have been living in
@@ -63,6 +63,7 @@ const Upper = () => {
           starting school, so my calendar is usually blocked between 9-10 AM.
           This is a...
         </div>
+        { /* eslint-enable react/no-unescaped-entities */ }
       </div>
       <div className={styles.rightSidebar}></div>
     </div>
