@@ -10,7 +10,7 @@
   display: flex;
 }
 
-.header {
+.below .header {
   width: 90%;
   display: flex;
   gap: 155px;
@@ -109,7 +109,7 @@
 }
 
 @media (max-width: 768px) {
-  .header {
+  .below .header {
     min-width: 90%;
     gap: 5px;
   }
